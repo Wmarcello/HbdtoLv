@@ -1,0 +1,978 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> The Weeding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Weeding -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Sacramento&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Sacramento&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Lora:ital,wght@0,400..700;1,400..700&family=Sacramento&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Sacramento&display=swap" rel="stylesheet">
+     <!-- Akhir Font -->
+
+     <!-- Countdown -->
+      <link rel="stylesheet" href="./countdown/default.css">
+      
+      <!-- Akhir Countdown -->
+
+      <!-- Icons Bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+       <!-- Akhir Icons -->
+
+      <!-- text gsap -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/TextPlugin.min.js">
+       <!-- Akhir text gsap -->
+
+  </head>
+  <body>
+
+    <section id="hero" class="hero w-100 m-100 p-3 mx-auto text-center d-flex justify-content-center
+    align-items-center text-white">
+      <main>
+        <h1> HAPPY BIRTHDAY TO MY LOVE</h1>
+        <p> I hope you everyday is with me <bi class="bi-heart-fill text-danger"></bi> </p>
+
+        <div class="simply-countdown">
+         <div class="days">
+          <p>00</p>
+          <span>Days</span>
+         </div>
+
+         <div class="hours">
+          <p>00</p>
+          <span>Hours</span>
+         </div>
+
+         <div class="minutes">
+          <p>00</p>
+          <span>Minutes</span>
+          </div>
+
+         <div class="seconds">
+          <p>00</p>
+          <span>Seconds</span>
+         </div>
+        </div>
+
+        <a href="#home" class="btn btn-lg btn-light rounded-pill mt-4" onclick="enableScroll()"> LET'S OPEN </a>
+      </main>
+    </section>
+    <!-- Akhir Hero -->
+
+     <!-- Love Message Section -->
+    <section id="love-message" class="love-message content-section">
+      <div class="container">
+        <h2 class="section-title">My Heart Speaks</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="message-card">
+              <p class="message-text">
+                "On this special day, I want you to know that you are the most precious gift life has given me. 
+                Every moment with you feels like a beautiful dream that I never want to wake up from. 
+                Your smile lights up my darkest days, and your love gives me strength to face anything. 
+                Happy Birthday to the love of my life, my best friend, and my forever. 
+                May this new year bring you all the happiness you deserve, because you deserve the world and more."
+              </p>
+              <div class="text-center mt-4">
+                <i class="bi bi-heart-fill text-danger fs-1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Love Message -->
+
+     <!-- Photo Gallery Section -->
+    <section class="photo-gallery py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold"> Sweet Memories</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/love3.png" alt="Our First Date">
+          <div class="photo-overlay">
+            <h5>Our First Date</h5>
+            <p> Pertama kali kita jalan -jalan bareng pas tahun baru itu moment special </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/valentine.png" alt="Valentine Day">
+          <div class="photo-overlay">
+            <h5> Valentine Day</h5>
+            <p> Valentine day pertama kita . kita tukeran kado di rumah kakak kamu</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/camping.png" alt="Camping Day">
+          <div class="photo-overlay">
+            <h5>Camping Day</h5>
+            <p> pertama kali kita keluar kota camping di bogor selama 3 hari 2 malam. tersesat gmaps tapi seru </p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/berenang.png" alt="Swimming Day">
+          <div class="photo-overlay">
+            <h5>Swimming Day</h5>
+            <p> Bingung mau kemana. Kita pergi berenang ke Ocean Park BSD . dan disitu kamu pertama kali ngajarin aku renang <bi class="bi-heart-fill text-danger"></bi> </p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/bandung.png" alt=" Bandung Trip">
+          <div class="photo-overlay">
+            <h5>Bandung Trip</h5>
+            <p> Hari ke 2x nya kita keluar kota 4 hari 3 malam . Langsung gass Bandung Pake motor. explore semua bandung </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/kawahputih.png" alt=" KawahPutih Trip">
+          <div class="photo-overlay">
+            <h5>Kawahputih Trip</h5>
+            <p> Sebelum Pulang dari bandung. kita ke kawahputih hujan" an . sampe ke puncak naik mobil angkot haha. stroberi km sampe ketinggalan di mobilnya</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/pulkam.png" alt=" Pulkam Trip">
+          <div class="photo-overlay">
+            <h5>Kamu Pulkam</h5>
+            <p> Pulang dri Bogor Langsung nemenin kamu ke stasiun kamu pulang kampung sama mama. sampe aku kejar bus nya hahaha</p>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/ragunan.png" alt=" Ragunan Trip">
+          <div class="photo-overlay">
+            <h5> Ragunan Trip</h5>
+            <p> 3x ke Raguann mau explore semuanya tapi g pernah tersampaikan hahaha. sampe sewa motor listrik malah hujan </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/blokm.png" alt=" Blok M Always">
+          <div class="photo-overlay">
+            <h5> Blok M Always</h5>
+            <p> tiap malem bingung kemana dan cari makan dimana . ujung" nya ke blok m kita. blok M selalu jadi tujuan </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/lovers.png" alt=" Bakso Trip">
+          <div class="photo-overlay">
+            <h5> Bakso Trip</h5>
+            <p> Nyari Tukang bakso mercon yg enak dikasih tau mama kamu. sampe tersesat hahaha + nyari cermin jalan buat foto </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/night.png" alt=" Night Trip">
+          <div class="photo-overlay">
+            <h5> Night Trip</h5>
+            <p> Pulang Malem . mampir dlu ke nasgor  </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="photo-item">
+          <img src="./img/night.png" alt=" Night Trip">
+          <div class="photo-overlay">
+            <h5> Night Trip</h5>
+            <p> Pulang Malem . mampir dlu ke nasgor  </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Akhir Photo Gallery -->
+
+<!-- Video Section -->
+<section class="wedding-video py-5">
+  <div class="container text-center">
+    <h2 class="mb-3" style="font-family: 'Pacifico', cursive; color: #e91e63; font-size: 2.5rem;">
+     Sweet Video
+    </h2>
+    <p class="mb-4 fs-5 fst-italic">
+      "moments of our special day."
+    </p>
+
+    <div class="video-wrapper mb-4">
+      <video id="birthdayVideo" controls muted loop playsinline class="rounded shadow" width="100%" height="auto">
+        <source src="./video/sweetsnes.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <p class="text-muted fst-italic" style="color: #c2185b !important;">
+      "This video captures the unforgettable moments of our Special day, filled with love, joy, and laughter.
+      We are forever grateful to everyone who made this day so special. Thank you for being a part of our journey!"
+    </p>
+  </div>
+</section>
+
+<!-- Durasi selama pacaran -->
+<section class="text-center mt-10" id="counting">
+  <h2 class="mb-3" style="font-family: 'Pacifico', cursive; color: #e91e63; font-size: 2.5rem;">
+    First Time We Met
+  </h2>
+   <div class="countdown">
+    <div class="time-box">
+      <div class="number" id="years">0</div>
+      <div class="label">Years</div>
+    </div>
+    <div class="time-box">
+      <div class="number" id="months">0</div>
+      <div class="label">Months</div>
+    </div>
+    <div class="time-box">
+      <div class="number" id="days">0</div>
+      <div class="label">Days</div>
+    </div>
+    <div class="time-box">
+      <div class="number" id="hours">0</div>
+      <div class="label">Hours</div>
+    </div>
+    <div class="time-box">
+      <div class="number" id="minutes">0</div>
+      <div class="label">Minutes</div>
+    </div>
+    <div class="time-box">
+      <div class="number" id="seconds">0</div>
+      <div class="label">Seconds</div>
+    </div>
+  </div>
+</section>
+
+<!-- Akhir Durasi Love -->
+
+<!-- Hadiah Kecil -->
+
+<section class="text-center mt-10" id="counting">
+  <div class="mt-5" style="margin-bottom: 50px;">
+  <button id="giftButton" class="btn btn-danger btn-lg rounded-pill px-4 shadow">
+    🎁 My Gift For U
+  </button>
+</div>
+
+<!-- Popup Surprise Box -->
+<div id="giftModal" class="gift-modal">
+  <div class="gift-box">
+    <div class="gift-lid"></div>
+    <div class="gift-content">
+      <h3>Untuk Kamu yang Spesial ❤️</h3>
+      <p>
+        Mungkin tidak seberapa hadiah yg aku kasih but aku harap kamu menyukainya dengan senang dan ceria senyumanmu . Dan semoga kamu selalu bahagia bersamaku bby
+      </p>
+      <img src="./img/gift.png" alt="Gift" class="gift-image">
+      <button class="btn btn-light mt-3" onclick="closeGift()">Tutup</button>
+    </div>
+  </div>
+</div>
+
+
+
+  </section>
+
+  <!-- Akhir popup Hadiah -->
+
+  <!-- slider foto lebih dari 20+ -->
+   
+  <section class="text-center mt-10" id="slider">
+
+     <div class="photo-slider-container">
+        <div class="slider-header">
+            <h2 class="slider-title">Our Beautiful Memories</h2>
+            <p class="slider-subtitle">Swipe through our special moments together</p>
+        </div>
+
+        <div class="photo-slider">
+            <div class="slider-track" id="sliderTrack">
+                <!-- 25 sample photos -->
+                <div class="slide">
+                    <img src=""alt="Memory 1">
+                    <div class="slide-overlay">
+                        <div class="slide-number">1 / 25</div>
+                        <div class="slide-title">Beautiful Sunset</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 2">
+                    <div class="slide-overlay">
+                        <div class="slide-number">2 / 25</div>
+                        <div class="slide-title">Ocean Waves</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 3">
+                    <div class="slide-overlay">
+                        <div class="slide-number">3 / 25</div>
+                        <div class="slide-title">Mountain View</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 4">
+                    <div class="slide-overlay">
+                        <div class="slide-number">4 / 25</div>
+                        <div class="slide-title">Forest Path</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 5">
+                    <div class="slide-overlay">
+                        <div class="slide-number">5 / 25</div>
+                        <div class="slide-title">Peaceful Lake</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 6">
+                    <div class="slide-overlay">
+                        <div class="slide-number">6 / 25</div>
+                        <div class="slide-title">Flower Field</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 7">
+                    <div class="slide-overlay">
+                        <div class="slide-number">7 / 25</div>
+                        <div class="slide-title">City Lights</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 8">
+                    <div class="slide-overlay">
+                        <div class="slide-number">8 / 25</div>
+                        <div class="slide-title">Dense Forest</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 9">
+                    <div class="slide-overlay">
+                        <div class="slide-number">9 / 25</div>
+                        <div class="slide-title">Snowy Mountain</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 10">
+                    <div class="slide-overlay">
+                        <div class="slide-number">10 / 25</div>
+                        <div class="slide-title">Desert Dunes</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 11">
+                    <div class="slide-overlay">
+                        <div class="slide-number">11 / 25</div>
+                        <div class="slide-title">Tropical Beach</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 12">
+                    <div class="slide-overlay">
+                        <div class="slide-number">12 / 25</div>
+                        <div class="slide-title">Autumn Colors</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 13">
+                    <div class="slide-overlay">
+                        <div class="slide-number">13 / 25</div>
+                        <div class="slide-title">Highland View</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 14">
+                    <div class="slide-overlay">
+                        <div class="slide-number">14 / 25</div>
+                        <div class="slide-title">Cherry Blossoms</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src=""alt="Memory 15">
+                    <div class="slide-overlay">
+                        <div class="slide-number">15 / 25</div>
+                        <div class="slide-title">Valley Vista</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 16">
+                    <div class="slide-overlay">
+                        <div class="slide-number">16 / 25</div>
+                        <div class="slide-title">Waterfall</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 17">
+                    <div class="slide-overlay">
+                        <div class="slide-number">17 / 25</div>
+                        <div class="slide-title">Cloudy Sky</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 18">
+                    <div class="slide-overlay">
+                        <div class="slide-number">18 / 25</div>
+                        <div class="slide-title">Rocky Coast</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 19">
+                    <div class="slide-overlay">
+                        <div class="slide-number">19 / 25</div>
+                        <div class="slide-title">Alpine Meadow</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 20">
+                    <div class="slide-overlay">
+                        <div class="slide-number">20 / 25</div>
+                        <div class="slide-title">River Rapids</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 21">
+                    <div class="slide-overlay">
+                        <div class="slide-number">21 / 25</div>
+                        <div class="slide-title">Sunrise Glory</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 22">
+                    <div class="slide-overlay">
+                        <div class="slide-number">22 / 25</div>
+                        <div class="slide-title">Peak Adventure</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 23">
+                    <div class="slide-overlay">
+                        <div class="slide-number">23 / 25</div>
+                        <div class="slide-title">Tranquil Pond</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 24">
+                    <div class="slide-overlay">
+                        <div class="slide-number">24 / 25</div>
+                        <div class="slide-title">Golden Hour</div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="" alt="Memory 25">
+                    <div class="slide-overlay">
+                        <div class="slide-number">25 / 25</div>
+                        <div class="slide-title">Forever Together</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="nav-btn" id="prevBtn">❮</button>
+            <div class="slider-info">
+                <span id="currentSlide">1</span> of <span id="totalSlides">25</span>
+            </div>
+            <button class="nav-btn" id="nextBtn">❯</button>
+        </div>
+
+        <div class="dots-container" id="dotsContainer"></div>
+    </div>
+
+    </section>
+
+  <!-- Akhir slider foto -->
+
+
+
+
+      <!-- audio -->
+
+            <div id="audio-container">
+              <audio id="song" autoplay loop>
+                <source src = "song/music1.mp3" type="audio/mp3">
+              </audio>
+
+              <div class="audio-icon-wrapper" style="display: none;">
+                <i class="bi bi-disc"></i>
+              </div>
+            </div>
+        <!-- Akhir audio -->
+
+
+
+    <script>
+  // Countdown
+  document.addEventListener("DOMContentLoaded", function() {
+  var countdownDate = new Date("August 31, 2025 00:00:00").getTime();
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countdownDate - now;
+    
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    var daysElement = document.querySelector(".simply-countdown .days p");
+    var hoursElement = document.querySelector(".simply-countdown .hours p");
+    var minutesElement = document.querySelector(".simply-countdown .minutes p");
+    var secondsElement = document.querySelector(".simply-countdown .seconds p");
+
+    daysElement.innerHTML = days;
+    hoursElement.innerHTML = hours;
+    minutesElement.innerHTML = minutes;
+    secondsElement.innerHTML = seconds;
+  }, 1000)
+});
+
+// Akhir Countdown
+
+</script>
+
+
+<!--  -->
+
+
+<!-- Video MP4 AUTO PLAY -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const video = document.getElementById('birthdayVideo');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      });
+    }, {
+      threshold: 0.5 
+    });
+
+    observer.observe(video);
+  });
+</script>
+
+<!-- Video MP4 Muted sound -->
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const video = document.getElementById('birthdayVideo');
+  video.muted = true;
+  video.volume = 0;
+
+  // Jika user coba naikkan volume lewat devtools:
+  video.addEventListener('volumechange', function () {
+    if (video.volume !== 0 || video.muted === false) {
+      video.volume = 0;
+      video.muted = true;
+    }
+  });
+});
+
+</script>
+
+<!-- Animasi Hadiah -->
+
+<script>
+  const giftButton = document.getElementById('giftButton');
+  const giftModal = document.getElementById('giftModal');
+
+  giftButton.addEventListener('click', () => {
+    giftModal.style.display = 'flex';
+  });
+
+  function closeGift() {
+    giftModal.style.display = 'none';
+  }
+</script>
+
+
+<!-- Akhir animasi hadiah -->
+
+
+
+
+<script>
+  const rootElement = document.querySelector(':root');
+  const audioiconwrapper = document.querySelector('.audio-icon-wrapper');
+  const audioicon = document.querySelector('.audio-icon-wrapper i');
+  const song = document.querySelector('#song');
+  let isplaying = false;
+  function disableScroll() {
+  scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+  window.onscroll = function() {
+  window.scrollTo(scrollTop, scrollLeft)
+  }
+
+  rootElement.style.scrollBehavior = 'auto';
+
+    }
+
+    function enableScroll() {
+      window.onscroll = function() {};
+      rootElement.style.scrollBehavior = 'smooth';
+
+      playaudio()
+    }
+
+    function playaudio(){
+      song.volume= 0.5;
+      audioiconwrapper.style.display = 'flex';
+      song.play();
+      isplaying = true;
+    }
+   audioiconwrapper.onclick = function(){
+
+    if(isplaying){
+     song.pause();
+     audioicon.classList.remove('bi-disc');
+     audioicon.classList.add('bi-pause-circle');
+    } else{
+      song.play();
+      audioicon.classList.add('bi-disc');
+      audioicon.classList.remove('bi-pause-circle');
+    }
+    isplaying = !isplaying;
+   }
+
+
+
+
+
+    disableScroll();
+</script>
+
+<!-- Akhir Music -->
+
+<script>
+  // Animasi gambar home
+  const hero = document.querySelector('.hero');
+const images = [
+  './img/love1.png',
+  './img/love2.png',
+  './img/love3.png'
+];
+let currentIndex = 0;
+
+function changeBackground() {
+  hero.style.backgroundImage = `url('${images[currentIndex]}')`;
+  currentIndex = (currentIndex + 1) % images.length; 
+}
+
+setInterval(changeBackground, 3000);
+</script>
+
+<!-- Akhir Animasi -->
+
+<!-- Love Duration -->
+ <script>
+  const startDate = new Date("2023-12-14T00:00:00");
+
+  function updateCounter() {
+    const now = new Date();
+    let years = now.getFullYear() - startDate.getFullYear();
+    let months = now.getMonth() - startDate.getMonth();
+    let days = now.getDate() - startDate.getDate();
+    let hours = now.getHours() - startDate.getHours();
+    let minutes = now.getMinutes() - startDate.getMinutes();
+    let seconds = now.getSeconds() - startDate.getSeconds();
+
+    if (seconds < 0) {
+      seconds += 60;
+      minutes--;
+    }
+
+    if (minutes < 0) {
+      minutes += 60;
+      hours--;
+    }
+
+    if (hours < 0) {
+      hours += 24;
+      days--;
+    }
+
+    if (days < 0) {
+      months--;
+      const lastMonth = new Date(now.getFullYear(), now.getMonth(), 0);
+      days += lastMonth.getDate();
+    }
+
+    if (months < 0) {
+      months += 12;
+      years--;
+    }
+
+    document.getElementById("years").textContent = years;
+    document.getElementById("months").textContent = months;
+    document.getElementById("days").textContent = days;
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("minutes").textContent = minutes;
+    document.getElementById("seconds").textContent = seconds;
+  }
+
+  updateCounter(); // First run
+  setInterval(updateCounter, 1000); // Update every second
+</script>
+
+<!-- Akhir Love Duration -->
+
+
+<!-- Slider foto gallery 20+ -->
+<script>
+        class PhotoSlider {
+            constructor() {
+                this.currentIndex = 0;
+                this.totalSlides = 25;
+                this.slidesPerView = window.innerWidth <= 768 ? 
+                    (window.innerWidth <= 480 ? 1.2 : 1.8) : 3.5;
+                this.slideWidth = window.innerWidth <= 768 ? 
+                    (window.innerWidth <= 480 ? 208 : 260) : 315;
+                
+                this.sliderTrack = document.getElementById('sliderTrack');
+                this.prevBtn = document.getElementById('prevBtn');
+                this.nextBtn = document.getElementById('nextBtn');
+                this.currentSlideSpan = document.getElementById('currentSlide');
+                this.dotsContainer = document.getElementById('dotsContainer');
+                
+                this.init();
+            }
+
+            init() {
+                this.createDots();
+                this.addEventListeners();
+                this.updateSlider();
+                this.handleResize();
+            }
+
+            createDots() {
+                const maxDots = Math.ceil(this.totalSlides / this.slidesPerView);
+                for (let i = 0; i < maxDots; i++) {
+                    const dot = document.createElement('div');
+                    dot.className = 'dot';
+                    dot.addEventListener('click', () => this.goToSlide(i * this.slidesPerView));
+                    this.dotsContainer.appendChild(dot);
+                }
+            }
+
+            addEventListeners() {
+                this.prevBtn.addEventListener('click', () => this.prevSlide());
+                this.nextBtn.addEventListener('click', () => this.nextSlide());
+                
+                // Touch/swipe support
+                let startX = 0;
+                let isDragging = false;
+
+                this.sliderTrack.addEventListener('touchstart', (e) => {
+                    startX = e.touches[0].clientX;
+                    isDragging = true;
+                });
+
+                this.sliderTrack.addEventListener('touchmove', (e) => {
+                    if (!isDragging) return;
+                    e.preventDefault();
+                });
+
+                this.sliderTrack.addEventListener('touchend', (e) => {
+                    if (!isDragging) return;
+                    isDragging = false;
+                    
+                    const endX = e.changedTouches[0].clientX;
+                    const diff = startX - endX;
+                    
+                    if (Math.abs(diff) > 50) {
+                        if (diff > 0) {
+                            this.nextSlide();
+                        } else {
+                            this.prevSlide();
+                        }
+                    }
+                });
+
+                // Mouse drag support
+                let mouseStartX = 0;
+                let isMouseDragging = false;
+
+                this.sliderTrack.addEventListener('mousedown', (e) => {
+                    mouseStartX = e.clientX;
+                    isMouseDragging = true;
+                    this.sliderTrack.style.cursor = 'grabbing';
+                });
+
+                document.addEventListener('mousemove', (e) => {
+                    if (!isMouseDragging) return;
+                    e.preventDefault();
+                });
+
+                document.addEventListener('mouseup', (e) => {
+                    if (!isMouseDragging) return;
+                    isMouseDragging = false;
+                    this.sliderTrack.style.cursor = 'grab';
+                    
+                    const diff = mouseStartX - e.clientX;
+                    
+                    if (Math.abs(diff) > 50) {
+                        if (diff > 0) {
+                            this.nextSlide();
+                        } else {
+                            this.prevSlide();
+                        }
+                    }
+                });
+
+                // Keyboard navigation
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'ArrowLeft') {
+                        this.prevSlide();
+                    } else if (e.key === 'ArrowRight') {
+                        this.nextSlide();
+                    }
+                });
+            }
+
+            handleResize() {
+                window.addEventListener('resize', () => {
+                    this.slidesPerView = window.innerWidth <= 768 ? 
+                        (window.innerWidth <= 480 ? 1.2 : 1.8) : 3.5;
+                    this.slideWidth = window.innerWidth <= 768 ? 
+                        (window.innerWidth <= 480 ? 208 : 260) : 315;
+                    this.updateSlider();
+                });
+            }
+
+            nextSlide() {
+                if (this.currentIndex < this.totalSlides - this.slidesPerView) {
+                    this.currentIndex++;
+                    this.updateSlider();
+                }
+            }
+
+            prevSlide() {
+                if (this.currentIndex > 0) {
+                    this.currentIndex--;
+                    this.updateSlider();
+                }
+            }
+
+            goToSlide(index) {
+                this.currentIndex = Math.max(0, Math.min(index, this.totalSlides - this.slidesPerView));
+                this.updateSlider();
+            }
+
+            updateSlider() {
+                const translateX = -this.currentIndex * this.slideWidth;
+                this.sliderTrack.style.transform = `translateX(${translateX}px)`;
+                
+                // Update current slide number
+                this.currentSlideSpan.textContent = this.currentIndex + 1;
+                
+                // Update navigation buttons
+                this.prevBtn.disabled = this.currentIndex === 0;
+                this.nextBtn.disabled = this.currentIndex >= this.totalSlides - this.slidesPerView;
+                
+                // Update dots
+                const dots = this.dotsContainer.querySelectorAll('.dot');
+                dots.forEach((dot, index) => {
+                    const slideGroupIndex = Math.floor(this.currentIndex / this.slidesPerView);
+                    dot.classList.toggle('active', index === slideGroupIndex);
+                });
+            }
+        }
+
+        // Initialize slider when page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new PhotoSlider();
+            
+            // Add some interactive effects
+            const giftButton = document.querySelector('.gift-button');
+            const refreshIcon = document.querySelector('.refresh-icon');
+            
+            giftButton.addEventListener('click', () => {
+                giftButton.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    giftButton.style.transform = 'scale(1)';
+                }, 150);
+            });
+            
+            refreshIcon.addEventListener('click', () => {
+                location.reload();
+            });
+        });
+
+        // Auto-play functionality (optional)
+        let autoPlayInterval;
+        const slider = document.querySelector('.photo-slider-container');
+
+        function startAutoPlay() {
+            autoPlayInterval = setInterval(() => {
+                const nextBtn = document.getElementById('nextBtn');
+                if (!nextBtn.disabled) {
+                    nextBtn.click();
+                } else {
+                    // Reset to beginning
+                    document.getElementById('prevBtn').click();
+                }
+            }, 3000);
+        }
+
+        function stopAutoPlay() {
+            clearInterval(autoPlayInterval);
+        }
+
+        // Start autoplay when page loads, stop when user interacts
+        window.addEventListener('load', () => {
+            startAutoPlay();
+            
+            slider.addEventListener('mouseenter', stopAutoPlay);
+            slider.addEventListener('mouseleave', startAutoPlay);
+            slider.addEventListener('touchstart', stopAutoPlay);
+        });
+    </script>
+
+<!-- Akhir Slider -->
