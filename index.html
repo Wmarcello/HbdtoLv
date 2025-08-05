@@ -640,6 +640,83 @@
         </div>
     </section>
 
+    <!-- Akhir Timeline -->
+
+     <section class="thank-you-section">
+        <div class="container">
+            <div class="thank-you-content">
+                <!-- Sparkle effects -->
+                <div class="sparkle">✨</div>
+                <div class="sparkle">✨</div>
+                <div class="sparkle">✨</div>
+                <div class="sparkle">✨</div>
+
+                <h2 class="thank-you-title">Thank You My Love</h2>
+                
+                <div class="thank-you-message">
+                    <div class="message-paragraph">
+                        <strong>Terima kasih</strong> sudah menjadi bagian terpenting dalam hidup aku. Setiap hari yang aku lalui bersamamu adalah the gift, dan alasan aku untuk terus bersemangat setiap harinya.
+                    </div>
+                    
+                    <div class="message-paragraph">
+                        <strong>Terima kasih</strong> untuk semua kesabaran kamu menghadapi tingkah aku yang kadang absurd dan membuat kamu bad mood. 
+                    </div>
+                    
+                    <div class="message-paragraph">
+                        <strong>Terima kasih</strong> sudah mau ngajarin aku berenang dengan super sabar, meskipun aku takut tengelam di air. Terima kasih sudah mau diajak adventure ke Bandung naik motor, camping di Bogor, dan semua perjalanan seru lainnya.
+                    </div>
+                    
+                    <div class="message-paragraph">
+                        <strong>Yang paling penting</strong>, terima kasih sudah mencintai aku apa adanya. Dengan semua kelebihan dan kekurangan aku, kamu tetap di sini, tetap sayang, tetap support aku. Aku berharap kita bisa terus bersama, mengumpulkan lebih banyak moment indah, dan always to love me.
+                    </div>
+                </div>
+
+                <div class="heart-container">
+                    <div class="big-heart">💖</div>
+                </div>
+
+                <div class="signature-section">
+                    <div class="signature">With All My Love</div>
+                    <div class="signature-date">Jakarta, 30 Agustus 2025</div>
+                </div>
+
+                <div class="final-message">
+                    Happy Birthday Sayangku! 🎂<br>
+                    Semoga tahun ini membawa kebahagiaan yang lebih besar untuk kita berdua ❤️
+                </div>
+
+                <button class="love-button" onclick="showLoveMessage()">
+                    💕 Send Love 💕
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Akhir Thank You -->
+
+    </body>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0">
+                        Made with <span class="footer-heart">💖</span> for the most special person in my life
+                    </p>
+                    <div class="copyright">
+                        © 2025 - A Birthday Love Letter Website
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Akhir Footer -->
+    </html>
+
+    
+
 
 
 
@@ -657,6 +734,50 @@
               </div>
             </div>
         <!-- Akhir audio -->
+
+
+        <!--  -->
+         <script>
+        // Interactive Love Button
+        function showLoveMessage() {
+            const messages = [
+                "Aku juga sayang banget sama kamu! 💕",
+                "Terima kasih sudah bikin hari-hari aku indah ❤️",
+                "You're the best thing that ever happened to me! 🌟",
+                "Aku beruntung banget punya kamu 💖",
+                "Love you to the moon and back! 🌙✨"
+            ];
+            
+            const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+            
+            // Create floating message
+            const messageEl = document.createElement('div');
+            messageEl.innerHTML = randomMessage;
+            messageEl.style.position = 'fixed';
+            messageEl.style.top = '50%';
+            messageEl.style.left = '50%';
+            messageEl.style.transform = 'translate(-50%, -50%)';
+            messageEl.style.background = 'rgba(233, 30, 99, 0.95)';
+            messageEl.style.color = 'white';
+            messageEl.style.padding = '20px 30px';
+            messageEl.style.borderRadius = '20px';
+            messageEl.style.fontSize = '1.2rem';
+            messageEl.style.fontWeight = 'bold';
+            messageEl.style.zIndex = '9999';
+            messageEl.style.textAlign = 'center';
+            messageEl.style.boxShadow = '0 10px 30px rgba(0,0,0,0.3)';
+            messageEl.style.animation = 'messagePopup 3s ease-out forwards';
+            
+            document.body.appendChild(messageEl);
+            
+            // Remove after animation
+            setTimeout(() => {
+                messageEl.remove();
+            }, 3000);
+        }
+    </script>
+
+    <!-- Akhir Animated Love -->
 
 
 
